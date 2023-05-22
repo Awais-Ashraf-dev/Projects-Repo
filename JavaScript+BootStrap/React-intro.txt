@@ -1,0 +1,49 @@
+//-------------------REACT-------------------// // DOM //
+//Single webpage app
+//HTML CODE WRITTEN IN JSX. javascript xml (HTML AND JS JOINS) "JSX can be used to create react"
+//npx  brings compiled code or other application
+//modulization "all the materials within"
+//.gitignore "files not accessable //donot track"
+//package lock.jason "dependencies automatically install of other packages"
+//npm run "internal testing code and deployment code"
+//read.md "for datastore,, or documentation"
+//donot reload new page advantage of react
+//components "divide the project into chunks"// react ui based on components //reused functions
+//<div> we can only place one component in div
+//react is viewer in MVC
+//WEBPACK?? Transpiler translates other language into language that browsers understand
+//classed based or function based components
+//core component by default component "app"
+//props instead of parameter
+//meta for search engine optimization
+//bad factor for SEO, user close website
+//cloud flere "cdn cloud delivery network"
+//DIV "block term(BLOCkLEVEL styling), div for group"
+//span " styling without whole block only a specific part"
+//DOM defines structure of webpage (html saves as a object) "top to bottom parse of code" hierarchy (head to body)
+//virtual DOM (A virtual DOM is a lightweight JavaScript representation of the Document Object Model used in declarative web frameworks such as React,)
+//article tag
+//sections tag
+//aside tag
+//list tag order and unordered list (<ol>) "order list" and (li) "list items"
+//< use &lt;
+// > &gt
+//statefull components (saves state) at any given time in variables(values saves in website) state of a system
+//stateless components does not saves the request of data (of state)
+//capital component name means it is not html code
+//selectors <>,classnames (div), ID *then* curly braces {propert and value;}
+//glassdore for remort work
+//mern stack in blockchain
+//psuedo class defines (change of state of component)
+//conflict resolution
+//cross browser and responsiveness in web browsers
+//styling then responsive(time taking process)
+//jquery is for DOM
+//library vs framework
+//sass for css
+//css (global rules for screens) //responsiveness is always on width
+//prompt engineer
+//DAN prompt for chat gpt
+//S3 web bucket
+//states and hookes
+//event

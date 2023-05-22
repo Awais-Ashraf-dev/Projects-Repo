@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    //     // document.addEventListener('DOMContentLoaded', function() {
+    //     //     document.querySelector('form').addEventListener('submit', function(event) {
+    //     //         event.preventDefault();
+    //     //         let name = document.querySelector('#idname').value;
+    //     //         document.querySelector("#newid").innerHTML = name;
+            
+    //     //     });
+    //     });
+    document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('button').forEach(function (button) {
+                button.onclick = function() {
+                    document.querySelector('#changecolor').style.color = button.dataset.color
+                }
+            })
+            
+     });
+    </script>
+</head>
+<body>
+   <form>
+    <input type="text" id="idname" placeholder="Enter name" autofocus>
+    <input type="submit" name="submit">
+   </form> 
+   <!-- <h1 id="newid">Text will appear here</h1> -->
+   <h1 id="changecolor">hello my name is awais</h1>
+   <button data-color="red">red</button>
+   <button data-color="green">green</button>
+   <button data-color="blue">blue</button>
+   <button data-color="orange">orange</button>
+</body>
+</html>
