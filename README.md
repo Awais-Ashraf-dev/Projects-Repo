@@ -19,8 +19,5 @@ To run any of the web apps in this repository, please follow the instructions pr
 ## Contributions
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests for any of the web apps in this repository, please open an issue or submit a pull request. Your feedback and contributions will be highly appreciated.
 
-## License
-This repository is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
-
 ## Get in Touch
 If you have any questions or want to connect with me, you can reach out to me via email at ashrafawais396@gmail.com.
