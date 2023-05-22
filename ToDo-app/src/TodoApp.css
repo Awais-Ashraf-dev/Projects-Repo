@@ -1,0 +1,109 @@
+.app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #f8f8f8;
+  }
+  
+  .add-todo-form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .add-todo-form input[type="text"] {
+    flex-grow: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 1em;
+  background-color: #ccc;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+  transition: 300ms ease-in-out;
+}
+.add-todo-form input:focus {
+  background-color: white;
+  transform: scale(1.05);
+  box-shadow: 13px 13px 100px #969696,
+             -13px -13px 100px #ffffff;
+}
+
+  
+  .add-todo-form button { 
+    padding: 8px 16px;
+    font-size: 16px;
+    margin-left: 15px;
+    color: #f8f8f8;
+    background-color: #007ACC;
+  outline: 3px #007ACC solid;
+  outline-offset: -3px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 400ms;
+  }
+ 
+  .add-todo-form button:hover {
+    background-color: transparent;
+  }
+  
+  
+  
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #f8f8f8;
+  }
+  
+  .todo-list li.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+  }
+  
+  .todo-list li input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+  .todo-list li .remove-button {
+    margin-left: auto;
+    padding: 4px 8px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #dc3545;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .filter-todo button {
+    margin-right: 8px;
+    padding: 4px 8px;
+    font-size: 14px;
+    background-color: #007ACC;
+  outline: 3px #007ACC solid;
+  outline-offset: -3px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 400ms;
+  }
+  .filter-todo button:hover {
+    background-color: transparent;
+  }
+  
+  .filter-todo button.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
