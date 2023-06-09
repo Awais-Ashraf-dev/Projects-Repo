@@ -7,7 +7,7 @@ const App = () => {
     <Router>
       <Routes>
       <div>
-        <Route exact path="/" element={<RecipeFinder />} />
+        <Route exact path="/" element={<RecipeFinder/>} />
         {/* Add more routes for other pages */}
       </div>
       </Routes>
