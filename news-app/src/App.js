@@ -5,13 +5,12 @@ import Navbar from './components/Navbar';
 import News from './components/News';
 
 export default class App extends Component {
-  c = 'john'
   render() {
     return (
       
      <>
      <Navbar/>
-     <News/>
+     <News pageSize={10} category="science"/>
  
      </>
     )
